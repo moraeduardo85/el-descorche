@@ -13,27 +13,15 @@ export default function Home() {
 
         <div className="relative z-10 grid min-h-[100svh] grid-rows-[auto_1fr_auto] px-7 pb-[max(1.5rem,env(safe-area-inset-bottom))] pt-[max(2.15rem,env(safe-area-inset-top))] text-center sm:min-h-[calc(100svh-3rem)] sm:px-9">
           <header>
-            <p className="mx-auto w-fit border-y border-[#4b1515]/28 px-4 py-1.5 font-sans text-[0.66rem] uppercase text-[#5b1d19]">
-              Próximamente
-            </p>
-
-            <h1 className="mt-6 font-serif text-[clamp(3.55rem,16vw,5rem)] leading-[0.92] text-[#421312]">
+            <p className="mx-auto font-serif text-[clamp(3.15rem,14vw,4.65rem)] leading-[0.95] text-[#421312]">
               Se viene...
-            </h1>
+            </p>
           </header>
 
           <div aria-hidden="true" />
 
           <footer className="flex flex-col items-center">
-            <div className="mb-3 flex items-center gap-3 text-[#4a1715]" aria-hidden="true">
-              <span className="h-px w-14 bg-[#4a1715]/34" />
-              <span className="h-1.5 w-1.5 rotate-45 bg-[#4a1715]" />
-              <span className="h-px w-14 bg-[#4a1715]/34" />
-            </div>
-
-            <p className="max-w-[18.5rem] font-serif text-[clamp(1.08rem,4.7vw,1.45rem)] leading-[1.36] text-[#35120f]">
-              Todavía estamos definiendo la forma.
-              <br />
+            <p className="max-w-[18rem] font-serif text-[clamp(1.1rem,4.8vw,1.45rem)] leading-[1.34] text-[#35120f]">
               Por ahora, solo estamos dejando la copa servida.
             </p>
           </footer>
