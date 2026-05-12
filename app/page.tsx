@@ -4,7 +4,7 @@ export default function Home() {
       <section className="relative mx-auto min-h-[100svh] w-full max-w-[480px] overflow-hidden bg-[#ead0ad] shadow-[0_28px_100px_rgba(0,0,0,0.52)] sm:min-h-[calc(100svh-3rem)] sm:rounded-[1.75rem]">
         <img
           alt="Botella de vino El Descorche sobre papel texturado con una pincelada circular de vino."
-          src="images/el-descorche-poster.webp"
+          src="images/el-descorche-poster.svg"
           className="absolute inset-0 h-full w-full object-cover"
         />
 
