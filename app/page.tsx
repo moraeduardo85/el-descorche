@@ -6,7 +6,7 @@ export default function Home() {
       <section className="relative mx-auto flex min-h-[100svh] w-full max-w-[520px] flex-col overflow-hidden bg-[#ead0ad] shadow-[0_24px_90px_rgba(0,0,0,0.48)] sm:min-h-[calc(100svh-3rem)] sm:rounded-[2rem]">
         <img
           alt="Botella de vino El Descorche sobre papel texturado con una pincelada circular de vino."
-          src="/images/el-descorche-poster.svg"
+          src="images/el-descorche-poster.svg"
           className="absolute inset-0 h-full w-full object-cover"
         />
 
