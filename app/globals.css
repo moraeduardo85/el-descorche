@@ -2,7 +2,7 @@
 
 :root {
   color-scheme: light;
-  background: #f6efe5;
+  background: #160707;
 }
 
 * {
@@ -17,10 +17,20 @@ html {
 body {
   min-height: 100%;
   margin: 0;
+  background:
+    radial-gradient(circle at top, rgba(94, 21, 31, 0.5), transparent 28rem),
+    #160707;
   font-family: var(--font-sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif);
 }
 
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
 ::selection {
-  background: rgba(122, 46, 59, 0.18);
-  color: #2f241f;
+  background: rgba(112, 25, 39, 0.2);
+  color: #2f1612;
 }
