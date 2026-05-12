@@ -21,9 +21,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -36,13 +33,9 @@ jobs:
         run: npm run build
         env:
           GITHUB_PAGES: 'true'
-          NEXT_TELEMETRY_DISABLED: '1'
-
-      - name: Disable Jekyll processing
-        run: touch out/.nojekyll
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
 

@@ -28,5 +28,3 @@ Importa el repositorio en Vercel y usa la configuración por defecto. El sitio n
 ### GitHub Pages
 
 Este repositorio incluye un workflow en `.github/workflows/deploy.yml` que construye y publica el sitio en GitHub Pages cuando se hace push a `main`.
-
-En GitHub, confirma que **Settings → Pages → Build and deployment → Source** esté configurado como **GitHub Actions**.
