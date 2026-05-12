@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1280" role="img" aria-labelledby="title desc">
+  <title id="title">El Descorche</title>
+  <desc id="desc">Botella de vino sobre papel texturado con una pincelada circular y un corcho.</desc>
+  <defs>
+    <radialGradient id="paperGlow" cx="50%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#f8e5c8"/>
+      <stop offset="55%" stop-color="#ead0ad"/>
+      <stop offset="100%" stop-color="#c99f72"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0%" x2="100%">
+      <stop offset="0%" stop-color="#050404"/>
+      <stop offset="20%" stop-color="#17100f"/>
+      <stop offset="47%" stop-color="#030303"/>
+      <stop offset="66%" stop-color="#101010"/>
+      <stop offset="100%" stop-color="#020202"/>
+    </linearGradient>
+    <linearGradient id="capsule" x1="0%" x2="100%">
+      <stop offset="0%" stop-color="#5d1b20"/>
+      <stop offset="50%" stop-color="#9b4850"/>
+      <stop offset="100%" stop-color="#3b0c12"/>
+    </linearGradient>
+    <filter id="paper" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="5" seed="14"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.18"/>
+      </feComponentTransfer>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#2e100d" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="720" height="1280" fill="url(#paperGlow)" filter="url(#paper)"/>
+  <path d="M49 80c93-22 155-2 206-16 69-19 143-54 239-21 65 23 120 13 175-2v1239H49z" fill="#f3d7ae" opacity=".2"/>
+  <path d="M54 1157c122 29 211 0 320 18 99 17 178 42 296 5v100H54z" fill="#8b512f" opacity=".1"/>
+
+  <g opacity=".9" fill="none" stroke-linecap="round">
+    <path d="M145 514c26-161 167-277 326-243 138 30 223 158 197 289-28 140-165 219-303 197-126-20-225-119-220-243z" stroke="#641620" stroke-width="34" opacity=".5"/>
+    <path d="M128 538c10-171 153-307 326-291 162 15 270 153 245 303-24 148-169 249-325 225-102-16-186-82-225-172" stroke="#7b2830" stroke-width="10" opacity=".55"/>
+    <path d="M122 486c54-155 213-241 364-189 127 44 193 174 155 300-37 124-163 206-299 173" stroke="#9d6558" stroke-width="6" opacity=".55"/>
+  </g>
+
+  <g fill="#6a1b23" opacity=".65">
+    <circle cx="131" cy="607" r="13"/>
+    <circle cx="602" cy="718" r="17"/>
+    <circle cx="650" cy="489" r="9"/>
+    <circle cx="190" cy="733" r="8"/>
+    <circle cx="536" cy="325" r="5"/>
+    <circle cx="100" cy="470" r="6"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <ellipse cx="365" cy="1060" rx="142" ry="28" fill="#37120f" opacity=".28"/>
+    <path d="M279 474c0-39 30-72 55-91 13-10 19-25 19-41V213h71v129c0 16 6 31 19 41 25 19 55 52 55 91v501c0 38-31 69-69 69h-81c-38 0-69-31-69-69z" fill="url(#glass)"/>
+    <rect x="347" y="160" width="83" height="206" rx="13" fill="url(#capsule)"/>
+    <rect x="342" y="152" width="93" height="28" rx="14" fill="#2a080d"/>
+    <path d="M352 196h78M352 244h78" stroke="#2a080d" stroke-width="6" opacity=".45"/>
+    <path d="M318 515c34 18 108 18 142 0" fill="none" stroke="#ffffff" stroke-width="16" opacity=".14"/>
+    <rect x="278" y="592" width="222" height="307" rx="13" fill="#ead7b9"/>
+    <rect x="293" y="609" width="192" height="273" rx="9" fill="#f2e2c9" opacity=".72"/>
+    <path d="M320 801h136" stroke="#4b1614" stroke-width="2" opacity=".35"/>
+    <path d="M333 830h110" stroke="#4b1614" stroke-width="2" opacity=".35"/>
+    <path d="M338 688h101" stroke="#5a1718" stroke-width="22" stroke-linecap="round"/>
+    <rect x="373" y="671" width="35" height="54" rx="6" fill="#4b1014"/>
+    <path d="M390 718c-18 28 20 31 1 58s16 31-3 60" fill="none" stroke="#4b1014" stroke-width="13" stroke-linecap="round"/>
+    <text x="389" y="760" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" fill="#3d1210">EL</text>
+    <text x="389" y="811" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#3d1210">DESCORCHE</text>
+  </g>
+
+  <g transform="translate(544 974) rotate(-14)">
+    <ellipse cx="66" cy="31" rx="66" ry="31" fill="#9b6436"/>
+    <rect x="0" y="0" width="132" height="62" rx="31" fill="#b9824d"/>
+    <ellipse cx="0" cy="31" rx="31" ry="31" fill="#6b1c22"/>
+    <path d="M0 1v60M-23 15l46 32M-23 47l46-32" stroke="#2c0a0d" stroke-width="2" opacity=".45"/>
+    <path d="M38 11c11 10 23 12 38 8M50 43c21-12 39-12 56-2" stroke="#4e2e17" stroke-width="3" opacity=".55"/>
+  </g>
+
+  <g transform="translate(360 1088)" fill="#4b1415">
+    <circle cx="-22" cy="0" r="10"/>
+    <circle cx="0" cy="0" r="10"/>
+    <circle cx="22" cy="0" r="10"/>
+    <circle cx="-12" cy="20" r="10"/>
+    <circle cx="12" cy="20" r="10"/>
+    <circle cx="0" cy="40" r="10"/>
+    <path d="M-3-18c-18-12-29-10-38 3 16 7 29 4 38-3zm8-2c10-20 28-24 46-13-13 16-29 20-46 13z"/>
+  </g>
+
+  <path d="M252 1197c75-18 154-17 235 0" fill="none" stroke="#6a1b23" stroke-width="7" stroke-linecap="round" opacity=".6"/>
+</svg>
