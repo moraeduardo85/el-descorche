@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "descorche",
+  "name": "el-descorche",
   "compatibility_date": "2026-05-14",
   "assets": {
     "directory": "./out",
